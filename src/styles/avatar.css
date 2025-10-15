@@ -1,0 +1,35 @@
+.welcome__avatar {
+    width: 140px; /* más grande que antes */
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.welcome__avatar:hover {
+    transform: scale(1.05);
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Adaptación a pantallas grandes */
+@media (min-width: 801px) {
+    .welcome__avatar {
+        width: 200px; /* más grande en pantallas grandes */
+        height: 200px;
+        margin-bottom: 16px;
+    }
+}
