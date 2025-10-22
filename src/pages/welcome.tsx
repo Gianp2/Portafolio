@@ -34,7 +34,8 @@ export const Welcome = () => {
                 <span className="color-primary w-700">
                     eficientes, escalables y fáciles de mantener
                 </span>
-                . ¡Explorá mi portafolio a continuación para ver cómo hago realidad las ideas a través de la tecnología!
+                . 
+                <br></br>¡Explorá mi portafolio a continuación para ver cómo hago realidad las ideas a través de la tecnología!
             </p>
 
             <Button

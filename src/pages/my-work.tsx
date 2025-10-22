@@ -21,7 +21,7 @@ const cards_content: TCard[] = [
     {
         title: 'Bar Cocteleria // Página para bar 🍻',
         img: Bar,
-        tags: ['HTML', 'CSS', 'JavaScript','Firebase', 'Responsive'],
+        tags: ['HTML', 'CSS', 'JavaScript','Firebase'],
         description:
             'Un sitio web moderno y elegante para un bar de cócteles. Incluye un diseño atractivo, elementos interactivos y una estructura completamente adaptable a todos los dispositivos.',
         buttons: [
@@ -44,7 +44,7 @@ const cards_content: TCard[] = [
     {
         title: 'InkArt // Estudio de tatuajes ✒️',
         img: InkArt,
-        tags: ['React','HTML', 'Tailwind', 'Animaciones', 'Responsive'],
+        tags: ['React','HTML', 'Tailwind', 'Animaciones'],
         description:
             'Sitio web dinámico y creativo para un estudio de tatuajes. Incluye animaciones fluidas, diseño interactivo y una experiencia totalmente responsive.',
         buttons: [
